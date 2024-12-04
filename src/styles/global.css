@@ -81,3 +81,14 @@ article p img {
 header span {
   @apply opacity-25;
 }
+
+article p a[target="_blank"]:after {
+  content: "↗";
+  display: inline-block;
+  margin: 0.2rem;
+  font-weight: 400;
+  /* font-size: 0.8rem; */
+  opacity: 0.5;
+  transition-property: transform;
+  transition-duration: 0.2s;
+}
