@@ -9,7 +9,7 @@ I know it sounds absurd but yes, I migrated this site again. It’s the third ti
 
 Honestly, I really like [Blot](https://blot.im) [^blot] as a concept:
 
-[^blot]: Where I was hosting the previous iteration of this
+[^blot]: Where I was hosting the previous iteration of this website.
 
 > Blot turns a folder into a website. Files become posts on your site. Drag-and-drop to publish.
 >
