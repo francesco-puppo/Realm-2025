@@ -1,5 +1,3 @@
-// src/plugins/targetBlank.ts
-
 import type { RehypePlugin } from "@astrojs/markdown-remark";
 import { visit } from "unist-util-visit";
 import type { Element } from "hast";

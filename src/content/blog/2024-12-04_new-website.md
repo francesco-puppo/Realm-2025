@@ -22,4 +22,9 @@ The only problems I had with it where my fault:
 - I set Blot up using git, therefore losing the benefit of just drag and dropping a file to a folder to automatically publish it
 - I don’t publish enough to justify the (really small fee) of 5€ / month
 
-So I went with [Astro](https://astro.build)
+So I went with [Astro](https://astro.build), since it’s been a while that I wanted to try it and they’ve just released version 5.0.
+
+Well, I have to say that it wasn’t easy... Maybe it’s because they just released this new version, deprecating some features that the few themes I tried kept giving me issues, but it’s not been as smooth as I hoped.
+
+```
+Production: main@HEAD (FAILED)
