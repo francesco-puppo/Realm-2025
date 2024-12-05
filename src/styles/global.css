@@ -71,3 +71,13 @@ html #back-to-top {
 html.scrolled #back-to-top {
   @apply opacity-100 pointer-events-auto;
 }
+
+/*** My shit ***/
+
+article p img {
+  @apply rounded-lg;
+}
+
+header span {
+  @apply opacity-25;
+}
