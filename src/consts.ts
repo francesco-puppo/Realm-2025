@@ -1,8 +1,8 @@
 import type { Site, Metadata, Socials } from "@types";
 
 export const SITE: Site = {
-  NAME: "Astro Nano",
-  EMAIL: "markhorn.dev@gmail.com",
+  NAME: "Fran",
+  EMAIL: "hey@iamfran.com",
   NUM_POSTS_ON_HOMEPAGE: 3,
   NUM_WORKS_ON_HOMEPAGE: 2,
   NUM_PROJECTS_ON_HOMEPAGE: 3,
@@ -25,20 +25,21 @@ export const WORK: Metadata = {
 
 export const PROJECTS: Metadata = {
   TITLE: "Projects",
-  DESCRIPTION: "A collection of my projects, with links to repositories and demos.",
+  DESCRIPTION:
+    "A collection of my projects, with links to repositories and demos.",
 };
 
 export const SOCIALS: Socials = [
-  { 
-    NAME: "twitter-x",
-    HREF: "https://twitter.com/markhorn_dev",
+  {
+    NAME: "bluesky",
+    HREF: "https://bsky.app/profile/iamfran.bsky.social",
   },
-  { 
-    NAME: "github",
-    HREF: "https://github.com/markhorn-dev"
+  {
+    NAME: "rss",
+    HREF: "https://github.com/markhorn-dev",
   },
-  { 
+  {
     NAME: "linkedin",
-    HREF: "https://www.linkedin.com/in/markhorn-dev",
-  }
+    HREF: "https://realm-2025.vercel.app/rss.xml",
+  },
 ];
