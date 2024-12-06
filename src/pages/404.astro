@@ -1,0 +1,27 @@
+---
+import PageLayout from "@layouts/PageLayout.astro";
+import Container from "@components/Container.astro";
+import Link from "@components/Link.astro";
+
+
+
+---
+
+<PageLayout title="404" description="Uh, oh...">
+  <Container>
+	<h4 class="animate font-semibold text-black dark:text-white">
+	  This page doesn't seem to exist...
+	</h4>
+	<div class="space-y-16">
+	  <section>
+		<article class="space-y-4">
+		  <p class="animate">
+			How the hell did you get here?
+		  </p>
+		  <p class="animate">
+			<Link href="/">
+				Go back home
+			</Link>
+		  </p>
+		</article>
+	  </section>

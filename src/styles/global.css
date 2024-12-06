@@ -86,8 +86,11 @@ header span {
   @apply opacity-25;
 }
 
-.font-semibold {
-  @apply text-lg;
+h1,
+h2,
+h3,
+h4 {
+  @apply text-xl;
 }
 
 astro-breadcrumbs nav ol li:not(:nth-child(2)) {
