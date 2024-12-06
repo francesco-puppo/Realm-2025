@@ -39,7 +39,7 @@ footer {
 
 article {
   @apply max-w-full prose dark:prose-invert prose-img:mx-auto prose-img:my-auto;
-  @apply prose-headings:font-semibold prose-p:font-serif;
+  @apply prose-headings:font-semibold prose-p:font-sans;
   @apply prose-headings:text-black prose-headings:dark:text-white;
 }
 
@@ -74,10 +74,27 @@ html.scrolled #back-to-top {
 
 /*** My shit ***/
 
+article {
+  @apply text-xl;
+}
+
 article p img {
   @apply rounded-lg;
 }
 
 header span {
   @apply opacity-25;
+}
+
+.font-semibold {
+  @apply text-lg;
+}
+
+astro-breadcrumbs nav ol li:first-child {
+  display: none;
+}
+
+astro-breadcrumbs nav ol li::before {
+  content: "/";
+  @apply text-black/50 opacity-25;
 }
