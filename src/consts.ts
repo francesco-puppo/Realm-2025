@@ -40,10 +40,10 @@ export const SOCIALS: Socials = [
     NAME: "bluesky",
     HREF: "https://bsky.app/profile/iamfran.bsky.social",
   },
-  {
-    NAME: "rss",
-    HREF: "https://github.com/markhorn-dev",
-  },
+  // {
+  //   NAME: "rss",
+  //   HREF: "https://github.com/markhorn-dev",
+  // },
   {
     NAME: "linkedin",
     HREF: "https://realm-2025.vercel.app/rss.xml",

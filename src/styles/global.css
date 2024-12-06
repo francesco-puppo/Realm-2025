@@ -90,12 +90,17 @@ header span {
   @apply text-lg;
 }
 
-astro-breadcrumbs nav ol li:first-child {
+astro-breadcrumbs nav ol li:not(:nth-child(2)) {
   display: none;
 }
 
 astro-breadcrumbs nav ol li::before {
   content: "/";
+  @apply text-black/50 opacity-25;
+}
+
+.socials li p,
+span.soft {
   @apply text-black/50 opacity-25;
 }
 

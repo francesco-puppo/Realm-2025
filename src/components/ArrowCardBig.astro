@@ -1,0 +1,32 @@
+---
+import type { CollectionEntry } from "astro:content";
+import Link from "@components/Link.astro";
+
+type Props = {
+  entry: CollectionEntry<"blog"> | CollectionEntry<"projects">;
+}
+
+const { entry } = Astro.props;
+
+const date = new Date(entry.data.date); // Assuming entry.data.title is a valid date string
+const formattedDate = `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}`; // Formats as yyyy-mm
+---
+
+<a href={`/${entry.collection}/${entry.slug}`} class="relative group flex flex-nowrap py-3 px-4 pr-10 rounded-lg transition-colors duration-300 ease-in-out">
+  <div class="flex flex-col flex-1 truncate">
+    <div class="font-semibold">
+      {entry.data.title}
+    </div>
+    <div class="flex justify-between">
+      <div class="text-sm">
+        {entry.data.description}
+      </div>
+      <div class="text-sm">
+        {formattedDate}
+      </div>
+      <a href={`/${entry.collection}/${entry.slug}`} class="flex">
+      Read post
+      </a>
+    </div>
+  </div>
+</a>
