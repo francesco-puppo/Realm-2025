@@ -98,3 +98,9 @@ astro-breadcrumbs nav ol li::before {
   content: "/";
   @apply text-black/50 opacity-25;
 }
+
+@media only screen and (max-width: 380px) {
+  astro-breadcrumbs {
+    display: none;
+  }
+}
