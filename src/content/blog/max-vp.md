@@ -1,5 +1,5 @@
 ---
-title: The concept of MaxVP
+title: A MaxVP is a finely tuned product that has just the right amount of features
 description: When is it enough?
 date: "Jan 12 2023"
 tags: [ux, product]
