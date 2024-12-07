@@ -114,5 +114,10 @@ span.soft {
 }
 
 mark {
-  background-color: peachpuff;
+  background: papayawhip;
+  @apply px-1 rounded;
+}
+
+html.dark mark {
+  background-color: thistle;
 }
