@@ -42,10 +42,10 @@ export const SOCIALS: Socials = [
   },
   // {
   //   NAME: "rss",
-  //   HREF: "https://github.com/markhorn-dev",
+  // HREF: "https://realm-2025.vercel.app/rss.xml",
   // },
   {
     NAME: "linkedin",
-    HREF: "https://realm-2025.vercel.app/rss.xml",
+    HREF: "https://www.linkedin.com/in/francescopuppo/",
   },
 ];
