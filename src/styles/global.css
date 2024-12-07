@@ -121,3 +121,7 @@ mark {
 html.dark mark {
   background-color: thistle;
 }
+
+.footnotes * {
+  @apply text-base;
+}
