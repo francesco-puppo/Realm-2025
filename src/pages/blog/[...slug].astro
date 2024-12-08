@@ -1,4 +1,5 @@
 ---
+import { SITE } from "@consts";
 import { type CollectionEntry, getCollection } from "astro:content";
 import PageLayout from "@layouts/PageLayout.astro";
 import Container from "@components/Container.astro";
@@ -47,7 +48,7 @@ const { Content } = await post.render();
       <Content />
     </article>
     <div class="mt-16 animate">
-      <ReplyViaMail />
+      <ReplyViaMail href={SITE.EMAIL}/>
       </div>
   </Container>
 </PageLayout>
