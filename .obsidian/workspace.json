@@ -156,6 +156,8 @@
   },
   "active": "4b5faadf10f27cde",
   "lastOpenFiles": [
+    "public/assets/favicon-light.png",
+    "public/assets/favicon-dark.png",
     "_astro_nano.png",
     "_deploy_vercel.svg",
     "_lighthouse.png"
