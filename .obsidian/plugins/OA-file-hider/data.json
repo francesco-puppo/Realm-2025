@@ -2,6 +2,11 @@
   "hidden": true,
   "hiddenList": [
     "node_modules",
-    "dist"
+    "dist",
+    "src/components",
+    "src/layouts",
+    "src/plugins",
+    "src/lib",
+    "src/styles"
   ]
 }

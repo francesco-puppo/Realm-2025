@@ -27,5 +27,12 @@ export async function GET(context: Context) {
 			pubDate: item.data.date,
 			link: `/${item.collection}/${item.slug}/`,
 		})),
+		customData: `
+      <image>
+        <url>${context.site}/favicon.ico</url>
+        <title>${HOME.TITLE}</title>
+        <link>${context.site}</link>
+      </image>
+    `,
 	});
 }
