@@ -1,0 +1,10 @@
+{
+  "clips" : [
+    {
+      "content" : "---\ntitle: \ndescription:\ndate:\ntags: \n---",
+      "name" : "Post YAML",
+      "scope" : "editor",
+      "syntax" : "markdown"
+    }
+  ]
+}
